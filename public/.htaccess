@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteBase /PHP_Avance_my_framework/public/
+RewriteRule ^([a-zA-Z]*)/?([a-zA-Z]*)?/?([a-zA-Z0-9]*)?/?$ index.php?c=$1&t=$2&params=$3 [NC,L]

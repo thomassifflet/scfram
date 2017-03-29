@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<h2>Users</h2>
+{% for user in user %}
+    <ul>
+        <li>{{ user['login'] }}</li>
+        <li>{{ user['pwd'] }}</li>
+        <li>{{ user['email'] }}</li>
+        <li>{{ user['date_inscription'] }}</li>
+    </ul>
+{% endfor %}
+</body>
+</html>

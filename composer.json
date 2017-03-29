@@ -1,0 +1,22 @@
+{
+    "name": "hikiyo/scfram",
+    "description": "A simple mvc framework for Samsung Campus",
+    "type": "project",
+    "require": {
+        "twig/twig": "^2.2"
+    },
+    "autoload": {
+        "classmap" : [
+            "./lib/",
+            "./app/"
+        ]
+    },
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Thomas SIFFLET",
+            "email": "thomas.sifflet@epitech.eu"
+        }
+    ],
+    "minimum-stability": "dev"
+}
